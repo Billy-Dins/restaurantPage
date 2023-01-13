@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: center;
     height: 5vh;
-    background-color: yellow;
+    background-color: black;
 }
 
 .headerContent {
@@ -30,6 +30,10 @@ header {
 }
 
 .background {
-    height: 100vh;
-    width: 100vw;
+    background-image: url(../assets/imgs/skates.jpg);
+    background-size: cover;
+    position: fixed;
+    height: auto;
+    width: auto;
+    position: fixed;
 }
