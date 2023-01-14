@@ -1,4 +1,3 @@
-import skates from '../assets/imgs/skates.jpg';
 import mikelbaka from '../assets/imgs/Mikelbaka.jpg'
 
 const home = function() {
