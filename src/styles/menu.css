@@ -1,0 +1,8 @@
+.Riga {
+        align-self: center;
+        color: rgb(54, 54, 54);
+        position: fixed;
+        top: 0px;
+        left: -560px;
+        z-index: -1;
+}

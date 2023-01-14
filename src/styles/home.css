@@ -40,9 +40,6 @@ header {
 .headerItem:hover {
     cursor: pointer;
 }
-#fishHeader {
-    color: orange;
-}
 .homeContent {
     height: 95vh;
     display: grid;
@@ -72,4 +69,11 @@ header {
 .footerItem {
     color: orange;
     font-size: 2vw;
+    display: flex;
+    align-items: center;
+    min-width: 25px;
+}
+#shirtCasual, #billPrice, #telephone {
+    padding-right: 5px;
+    width: 20px;
 }

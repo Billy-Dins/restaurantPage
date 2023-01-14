@@ -1,6 +1,11 @@
 import fishBones from '../assets/icons/fish-bones.png'
-import home from '../pages/home.js'
+import shirt from '../assets/icons/shirt.png'
+import bill from '../assets/icons/bill.png'
+import phone from '../assets/icons/phone.png'
+
 import render from './render.js'
+import home from '../pages/home.js'
+import menu from '../pages/menu.js'
 
 const createHeader = function() {
     const header = document.createElement('header');
@@ -21,35 +26,35 @@ const createHeader = function() {
 
     const menuHeader = document.createElement('button');
     menuHeader.classList.add('headerItem');
+    menuHeader.textContent = 'izvēlne'
     menuHeader.addEventListener('click', function() {
         render();
-        console.log('menu')
+        menu();
         createHeader();
         createFooter();
     });
-    menuHeader.textContent = 'Menu'
     header.appendChild(menuHeader);
 
     const aboutHeader = document.createElement('button');
     aboutHeader.classList.add('headerItem');
+    aboutHeader.textContent = 'par mums'
     aboutHeader.addEventListener('click', function() {
         render();
         console.log('about')
         createHeader();
         createFooter();
     });
-    aboutHeader.textContent = 'About'
     header.appendChild(aboutHeader);
 
     const bookHeader = document.createElement('button');
     bookHeader.classList.add('headerItem');
+    bookHeader.textContent = 'rezervācija';
     bookHeader.addEventListener('click', function() {
         render();
         console.log('book')
         createHeader();
         createFooter();
     });
-    bookHeader.textContent = 'Book';
     header.appendChild(bookHeader);
 };
 
@@ -60,22 +65,42 @@ const createFooter = function() {
 
     const footerItemOne = document.createElement('div');
     footerItemOne.classList.add('footerItem');
-    footerItemOne.textContent = 'Authentic Latvian Cuisine'
+    footerItemOne.textContent = 'Autentiska Latviešu virtuve'
     footer.appendChild(footerItemOne);
-
+// ------------------------------------------- //
     const footerItemTwo = document.createElement('div');
     footerItemTwo.classList.add('footerItem');
-    footerItemTwo.textContent = '$'
+    const billPrice = new Image();
+    billPrice.src = bill;
+    billPrice.id = 'billPrice'
+    footerItemTwo.appendChild(billPrice);
+    const footerPrice = document.createElement('div');
+    footerPrice.textContent = '$'
+    footerItemTwo.appendChild(footerPrice);
     footer.appendChild(footerItemTwo);
-
+// ------------------------------------------- //
     const footerItemThree = document.createElement('div');
     footerItemThree.classList.add('footerItem');
-    footerItemThree.textContent = 'Casual'
+    const shirtCasual = new Image();
+    shirtCasual.src = shirt;
+    shirtCasual.id = 'shirtCasual';
+    footerItemThree.appendChild(shirtCasual);
+    
+    const footerCasual = document.createElement('div');
+    footerCasual.textContent = 'Ikdienišks'
+    footerItemThree.appendChild(footerCasual);
     footer.appendChild(footerItemThree);
-
+// ------------------------------------------ //
     const footerItemFour = document.createElement('div');
     footerItemFour.classList.add('footerItem');
-    footerItemFour.textContent = '420-696-6969'
+    const telephone = new Image();
+    telephone.src = phone;
+    telephone.id = 'telephone';
+    footerItemFour.appendChild(telephone);
+
+    const footerPhone = document.createElement('div');
+    footerPhone.textContent = '371 27 841 572'
+    footerItemFour.appendChild(footerPhone);
     footer.appendChild(footerItemFour);
 };
 

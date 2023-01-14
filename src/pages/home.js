@@ -16,16 +16,16 @@ const home = function() {
 
         const tabOne = document.createElement('div');
         tabOne.classList.add('homeTab');
-        tabOne.textContent = 'For groups of 10 - 250 please fill out our inquiry form. Venue buyouts, customized menus and beverage packages are available.'
+        tabOne.textContent = 'Grupām no 10 līdz 250, lūdzu, aizpildiet mūsu anketu. Ir pieejamas vietu izpirkšanas vietas, pielāgotas ēdienkartes un dzērienu paketes.'
         mainContent.appendChild(tabOne);
 
         const tabTwo = document.createElement('div');
-        tabTwo.textContent = 'Dine-in!,  Take Out!,  Delivery!'
+        tabTwo.textContent = 'Pusdienot!, Izņemt!, Piegāde!'
         tabTwo.classList.add('homeTab');
         mainContent.appendChild(tabTwo);
 
         const tabThree = document.createElement('div');
-        tabThree.textContent = 'Earn Rewards!'
+        tabThree.textContent = 'Nopelniet balvas!'
         tabThree.classList.add('homeTab');
         mainContent.appendChild(tabThree)
     };
