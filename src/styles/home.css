@@ -2,9 +2,18 @@ body, html, #content {
     height: 100vh;
 }
 body {
+    background-color: rgb(50, 50, 50);
     margin: 0px;
 }
-
+.background {
+    color: rgb(54, 54, 54);
+    background-image: url(../assets/imgs/skates.jpg);
+    background-size: cover;
+    position: fixed;
+    top: -700px;
+    right: -350px;
+    z-index: -1;
+}
 header {
     display: flex;
     justify-content: center;
@@ -26,20 +35,29 @@ header {
     border: none;
     margin: 0px 25px 0px 25px;
     height: 25px;
+    font-size: 3vw;
 }
 .headerItem:hover {
     cursor: pointer;
 }
-
-.background {
-    color: rgb(54, 54, 54);
-    background-image: url(../assets/imgs/skates.jpg);
-    background-size: cover;
-    position: fixed;
-    top: -700px;
-    right: -350px;
-    z-index: -1;
+#fishHeader {
+    color: orange;
 }
+.homeContent {
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .1vh;
+}
+.homeTab {
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px 50px 0px 50px;
+    padding: 50px;
+    background-color: rgba(39, 34, 34, 0.767);
+    color: orange;
+}
+
 .footer {
     width: 100vw;
     background-color: rgb(50, 50, 50);
