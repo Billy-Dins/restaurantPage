@@ -6,34 +6,50 @@ body {
 }
 
 header {
-    position: sticky;
     display: flex;
     justify-content: center;
     height: 5vh;
-    background-color: black;
+    background-color: rgb(50, 50, 50);
 }
 
 .headerContent {
     display: flex;
-    height: 100%;
-    width: auto;
+    padding: 15px 0px 15px 0px;
 }
 
 .headerItem {
+    background-color: rgb(50, 50, 50);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    background-color: purple;
+    color: orange;
     border: none;
     margin: 0px 25px 0px 25px;
+    height: 25px;
+}
+.headerItem:hover {
+    cursor: pointer;
 }
 
 .background {
+    color: rgb(54, 54, 54);
     background-image: url(../assets/imgs/skates.jpg);
     background-size: cover;
     position: fixed;
-    height: auto;
-    width: auto;
+    top: -700px;
+    right: -350px;
+    z-index: -1;
+}
+.footer {
+    width: 100vw;
+    background-color: rgb(50, 50, 50);
     position: fixed;
+    bottom: 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerItem {
+    color: orange;
+    font-size: 2vw;
 }
