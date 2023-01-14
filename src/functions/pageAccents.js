@@ -26,7 +26,7 @@ const createHeader = function() {
 
     const menuHeader = document.createElement('button');
     menuHeader.classList.add('headerItem');
-    menuHeader.textContent = 'izvēlne'
+    menuHeader.textContent = 'ēdienkarte'
     menuHeader.addEventListener('click', function() {
         render();
         menu();

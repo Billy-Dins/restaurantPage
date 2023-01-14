@@ -1,5 +1,4 @@
 import skyline from '../assets/imgs/RigaSkyline.jpg'
-import "../styles/menu.css"
 
 const content = document.querySelector('#content')
 

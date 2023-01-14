@@ -16,11 +16,11 @@ const home = function() {
 
         const tabOne = document.createElement('div');
         tabOne.classList.add('homeTab');
-        tabOne.textContent = 'Grupām no 10 līdz 250, lūdzu, aizpildiet mūsu anketu. Ir pieejamas vietu izpirkšanas vietas, pielāgotas ēdienkartes un dzērienu paketes.'
+        tabOne.textContent = 'Grupām no 10 līdz 250, lūdzu, aizpildiet mūsu anketu. Ir pieejama telpu īre, personlizēta ēdienkarte un dzērienu paketes.'
         mainContent.appendChild(tabOne);
 
         const tabTwo = document.createElement('div');
-        tabTwo.textContent = 'Pusdienot!, Izņemt!, Piegāde!'
+        tabTwo.textContent = 'Pusdienot uz vietas, ēdiens līdzi ņemšanai, piegāde.'
         tabTwo.classList.add('homeTab');
         mainContent.appendChild(tabTwo);
 

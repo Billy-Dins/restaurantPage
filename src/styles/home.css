@@ -5,10 +5,6 @@ body {
     background-color: rgb(50, 50, 50);
     margin: 0px;
 }
-#content {
-    display: flex;
-    flex-direction: column;
-}
 .background {
     align-self: center;
     color: rgb(54, 54, 54);
@@ -16,32 +12,8 @@ body {
     top: -700px;
     z-index: -1;
 }
-header {
-    width: 100vw;
-    background-color: rgb(50, 50, 50);
-    position: fixed;
-    top: 0px;
-    padding: 10px 0px 10px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.headerItem {
-    background-color: rgb(50, 50, 50);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: orange;
-    border: none;
-    margin: 0px 25px 0px 25px;
-    height: 25px;
-    font-size: 3vw;
-}
-.headerItem:hover {
-    cursor: pointer;
-}
 .homeContent {
-    height: 95vh;
+    height: 90vh;
     display: grid;
     justify-content: center;
     grid-template-rows: 1fr 1fr 1fr;
@@ -55,25 +27,4 @@ header {
     padding: 50px;
     background-color: rgba(39, 34, 34, 0.767);
     color: orange;
-}
-
-.footer {
-    width: 100vw;
-    background-color: rgb(50, 50, 50);
-    position: fixed;
-    bottom: 0px;
-    padding: 10px 0px 10px 0px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.footerItem {
-    color: orange;
-    font-size: 2vw;
-    display: flex;
-    align-items: center;
-    min-width: 25px;
-}
-#shirtCasual, #billPrice, #telephone {
-    padding-right: 5px;
-    width: 20px;
 }
