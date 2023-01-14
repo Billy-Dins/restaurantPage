@@ -1,8 +1,8 @@
 const render = function() {
     const content = document.querySelector('#content');
-    for (let i = 0; i < content.children.length; i++) {
+    for (let i = content.children.length; i > 0; i--) {
         content.firstChild.remove();
     }
 };
 
-export { render }
+export default render

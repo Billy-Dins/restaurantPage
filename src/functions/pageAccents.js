@@ -1,5 +1,6 @@
 import fishBones from '../assets/icons/fish-bones.png'
-import { render } from './render.js'
+import home from '../pages/home.js'
+import render from './render.js'
 
 const createHeader = function() {
     const header = document.createElement('header');
@@ -8,26 +9,46 @@ const createHeader = function() {
 
     const fishHeader = new Image()
     fishHeader.classList.add('headerItem');
-    fishHeader.addEventListener('click', render)
-    fishHeader.id = 'fishHeader'
+    fishHeader.addEventListener('click', function() {
+        render();
+        console.log('home')
+        home();
+        createHeader();
+        createFooter();
+    });
     fishHeader.src = fishBones;
     header.appendChild(fishHeader);
 
     const menuHeader = document.createElement('button');
-    menuHeader.addEventListener('click', render)
     menuHeader.classList.add('headerItem');
+    menuHeader.addEventListener('click', function() {
+        render();
+        console.log('menu')
+        createHeader();
+        createFooter();
+    });
     menuHeader.textContent = 'Menu'
     header.appendChild(menuHeader);
 
     const aboutHeader = document.createElement('button');
-    aboutHeader.addEventListener('click', render)
     aboutHeader.classList.add('headerItem');
+    aboutHeader.addEventListener('click', function() {
+        render();
+        console.log('about')
+        createHeader();
+        createFooter();
+    });
     aboutHeader.textContent = 'About'
     header.appendChild(aboutHeader);
 
     const bookHeader = document.createElement('button');
-    bookHeader.addEventListener('click', render)
     bookHeader.classList.add('headerItem');
+    bookHeader.addEventListener('click', function() {
+        render();
+        console.log('book')
+        createHeader();
+        createFooter();
+    });
     bookHeader.textContent = 'Book';
     header.appendChild(bookHeader);
 };
