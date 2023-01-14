@@ -5,13 +5,16 @@ body {
     background-color: rgb(50, 50, 50);
     margin: 0px;
 }
+#content {
+    display: flex;
+    flex-direction: column;
+}
 .background {
+    align-self: center;
     color: rgb(54, 54, 54);
     background-image: url(../assets/imgs/skates.jpg);
-    background-size: cover;
     position: fixed;
     top: -700px;
-    right: -350px;
     z-index: -1;
 }
 header {
@@ -46,6 +49,7 @@ header {
 .homeContent {
     height: 85vh;
     display: grid;
+    justify-content: center;
     grid-template-rows: 1fr 1fr 1fr;
     gap: .1vh;
 }
