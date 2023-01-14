@@ -16,30 +16,26 @@ const home = function() {
         header.classList.add('header');
         content.appendChild(header);
 
-        const headerContent = document.createElement('div');
-        headerContent.classList.add('headerContent');
-        header.appendChild(headerContent);
-
         const fishHeader = new Image()
         fishHeader.classList.add('headerItem');
         fishHeader.id = 'fishHeader'
         fishHeader.src = fishBones;
-        headerContent.appendChild(fishHeader);
+        header.appendChild(fishHeader);
 
         const menuHeader = document.createElement('button');
         menuHeader.classList.add('headerItem');
         menuHeader.textContent = 'Menu'
-        headerContent.appendChild(menuHeader);
+        header.appendChild(menuHeader);
 
         const aboutHeader = document.createElement('button');
         aboutHeader.classList.add('headerItem');
         aboutHeader.textContent = 'About'
-        headerContent.appendChild(aboutHeader);
+        header.appendChild(aboutHeader);
 
         const bookHeader = document.createElement('button');
         bookHeader.classList.add('headerItem');
         bookHeader.textContent = 'Book';
-        headerContent.appendChild(bookHeader);
+        header.appendChild(bookHeader);
     };
 
     const homeContent = function () {

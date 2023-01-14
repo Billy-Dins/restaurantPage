@@ -18,15 +18,13 @@ body {
     z-index: -1;
 }
 header {
-    display: flex;
-    justify-content: center;
-    height: 5vh;
+    width: 100vw;
     background-color: rgb(50, 50, 50);
-}
-
-.headerContent {
+    position: fixed;
+    top: 0px;
+    padding: 10px 0px 10px 0px;
     display: flex;
-    padding: 15px 0px 15px 0px;
+    justify-content: space-between;
 }
 
 .headerItem {
@@ -47,11 +45,12 @@ header {
     color: orange;
 }
 .homeContent {
-    height: 85vh;
+    height: 95vh;
     display: grid;
     justify-content: center;
     grid-template-rows: 1fr 1fr 1fr;
     gap: .1vh;
+    margin: 30px 0px 80px 0px;
 }
 .homeTab {
     text-align: center;
