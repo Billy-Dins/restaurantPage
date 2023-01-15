@@ -1,4 +1,6 @@
 import skyline from '../assets/imgs/RigaSkyline.jpg'
+import debesmanna from '../assets/imgs/debesmanna.jpg'
+import breadPudding from '../assets/imgs/rupjmaizes-kartojums.jpg'
 
 const content = document.querySelector('#content')
 
@@ -32,15 +34,27 @@ const menu = function() {
         menuContent.appendChild(menuItemThree);
 
         const menuItemFour = document.createElement('div');
+        const mousse = new Image();
+        mousse.src = debesmanna;
+        mousse.id = 'mousse'
+        menuItemFour.appendChild(mousse);
         menuItemFour.id = 'menuItemFour';
         menuItemFour.classList.add('menuTab');
-        menuItemFour.textContent = 'Some dessert'
+        const menuFourText = document.createElement('div')
+        menuFourText.textContent = 'upenes ar ābolu biezeni sajauc ar krējumu, lai padarītu šo maigu un krēmīgu peli. Bet uzmanieties, jūs varētu vēlēties sekundes'
+        menuItemFour.appendChild(menuFourText);
         menuContent.appendChild(menuItemFour);
 
         const menuItemFive = document.createElement('div');
         menuItemFive.id = 'menuItemFive';
         menuItemFive.classList.add('menuTab');
-        menuItemFive.textContent = 'Some Other Dessert';
+        const menuFiveText = document.createElement('div');
+        menuFiveText.textContent = 'Smalki sarīvēts, pēc tam grauzdēts rupjmaizes pudiņš, kas aromatizēts ar kanēli un cukuru. Noteikti jāmirst';
+        menuItemFive.appendChild(menuFiveText);
+        const pudding = new Image();
+        pudding.src = breadPudding;
+        pudding.id = 'pudding';
+        menuItemFive.appendChild(pudding);
         menuContent.appendChild(menuItemFive);
     };
 

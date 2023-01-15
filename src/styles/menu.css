@@ -35,8 +35,20 @@
     margin-left: 30%;
 }
 #menuItemFour {
+    display: flex;
+    justify-content: space-between;
     margin-right: 30%;
+    padding: 50px;
+}
+#mousse {
+    width: 25vw;
 }
 #menuItemFive {
+    display: flex;
+    justify-content: space-between;
     margin-left: 30%;
+    padding: 50px;
+}
+#pudding {
+    width: 25vw;
 }
