@@ -11,10 +11,10 @@
     display: flex;
     flex-direction: column;
 }
-.menuContent {
+.mainContent {
     padding: 30px 0px 30px 0px;
 }
-.menuTab {
+.mainTab {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,30 +25,12 @@
     background-color: rgba(35, 35, 35, 0.7);
     color: orange;
 }
-#menuItemOne {
-    margin-left: 30%;
-}
-#menuItemTwo {
+#mainItemOne {
     margin-right: 30%;
 }
-#menuItemThree {
+#mainItemTwo {
     margin-left: 30%;
 }
-#menuItemFour {
-    display: flex;
-    justify-content: space-between;
+#mainItemThree {
     margin-right: 30%;
-    padding: 50px;
-}
-#mousse {
-    width: 25vw;
-}
-#menuItemFive {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30%;
-    padding: 50px;
-}
-#pudding {
-    width: 25vw;
 }

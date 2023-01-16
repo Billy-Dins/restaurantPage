@@ -6,6 +6,7 @@ import phone from '../assets/icons/phone.png'
 import render from './render.js'
 import home from '../pages/home.js'
 import menu from '../pages/menu.js'
+import desserts from '../pages/desserts'
 
 const createHeader = function() {
     const header = document.createElement('header');
@@ -26,7 +27,7 @@ const createHeader = function() {
 
     const menuHeader = document.createElement('button');
     menuHeader.classList.add('headerItem');
-    menuHeader.textContent = 'ēdienkarte'
+    menuHeader.textContent = 'uzkodas un pamatēdieni'
     menuHeader.addEventListener('click', function() {
         render();
         menu();
@@ -37,10 +38,10 @@ const createHeader = function() {
 
     const aboutHeader = document.createElement('button');
     aboutHeader.classList.add('headerItem');
-    aboutHeader.textContent = 'par mums'
+    aboutHeader.textContent = 'deserti'
     aboutHeader.addEventListener('click', function() {
         render();
-        console.log('about')
+        desserts();
         createHeader();
         createFooter();
     });

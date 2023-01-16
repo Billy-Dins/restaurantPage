@@ -1,5 +1,6 @@
 import './styles/home.css'
 import './styles/menu.css'
+import './styles/desserts.css'
 import './styles/pageNav.css'
 
 import home from "./pages/home.js";
