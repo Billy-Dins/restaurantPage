@@ -1,4 +1,4 @@
-import RigaSkyline from '../assets/imgs/RigaSkyline.jpg'
+import bridge from '../assets/imgs/bridge.jpg'
 
 import sweetSoups from '../assets/imgs/sweetSoup.jpg'
 import honeyCakes from '../assets/imgs/honeyCake.jpg'
@@ -14,6 +14,11 @@ const desserts = function() {
         const dessertContent = document.createElement('main');
         dessertContent.classList.add('dessertContent');
         content.appendChild(dessertContent);
+// --------------------------------------------------------- //
+        const dessertBackground = new Image();
+        dessertBackground.id = 'dessert-background'
+        dessertBackground.src = bridge
+        dessertContent.appendChild(dessertBackground);
 // --------------------------------------------------------- //
         const dessertItemOne = document.createElement('div');
         dessertItemOne.id = 'dessertItemOne';
