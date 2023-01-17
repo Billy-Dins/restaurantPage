@@ -5,11 +5,6 @@ body {
     background-color: rgb(50, 50, 50);
     margin: 0px;
 }
-#homeContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-}
 .background {
     align-self: center;
     color: rgb(54, 54, 54);

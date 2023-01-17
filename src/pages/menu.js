@@ -3,15 +3,16 @@ import skyline from '../assets/imgs/RigaSkyline.jpg'
 const content = document.querySelector('#content')
 
 const main = function() {
-    const RigaSkyline = new Image();
-    RigaSkyline.src = skyline;
-    RigaSkyline.classList.add('Riga')
-    content.appendChild(RigaSkyline);
+    const menuMainContent = document.createElement('div');
+    menuMainContent.id = 'main-menu-content';
+        const RigaSkyline = new Image();
+        RigaSkyline.src = skyline;
+        RigaSkyline.classList.add('Riga')
+        menuMainContent.appendChild(RigaSkyline);
 
-    const mainContent = function () {
         const mainContent = document.createElement('main');
         mainContent.classList.add('mainContent');
-        content.appendChild(mainContent);
+        menuMainContent.appendChild(mainContent);
 
         const mainItemOne = document.createElement('div');
         mainItemOne.id = 'mainItemOne';
@@ -29,10 +30,8 @@ const main = function() {
         mainItemThree.id = 'mainItemThree';
         mainItemThree.classList.add('mainTab');
         mainItemThree.textContent = 'Some other main course';
-        mainContent.appendChild(mainItemThree);
-    };
-
-    mainContent();
+        mainContent.appendChild(mainItemThree)
+    content.appendChild(menuMainContent)
 };
 
 export default main;

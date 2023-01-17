@@ -10,15 +10,15 @@ import breadPudding from '../assets/imgs/rupjmaizes-kartojums.jpg'
 const content = document.querySelector('#content')
 
 const desserts = function() {
+        const dessertBackground = new Image();
+        dessertBackground.id = 'dessert-background'
+        dessertBackground.src = bridge
+        content.appendChild(dessertBackground);
+
     const dessertContent = function () {
         const dessertContent = document.createElement('main');
         dessertContent.classList.add('dessertContent');
         content.appendChild(dessertContent);
-// --------------------------------------------------------- //
-        const dessertBackground = new Image();
-        dessertBackground.id = 'dessert-background'
-        dessertBackground.src = bridge
-        dessertContent.appendChild(dessertBackground);
 // --------------------------------------------------------- //
         const dessertItemOne = document.createElement('div');
         dessertItemOne.id = 'dessertItemOne';

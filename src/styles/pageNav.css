@@ -7,7 +7,7 @@ header {
     padding: 10px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
-    max-width: 1600px;
+    max-width: 1550px;
 }
 
 .headerItem {
@@ -19,7 +19,7 @@ header {
     border: none;
     margin: 0px 25px 0px 25px;
     height: 25px;
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 .headerItem:hover {
     cursor: pointer;
@@ -37,7 +37,7 @@ header {
 }
 .footerItem {
     color: orange;
-    font-size: 2vw;
+    font-size: 1.5vw;
     display: flex;
     align-items: center;
     min-width: 25px;
