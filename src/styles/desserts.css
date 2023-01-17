@@ -19,8 +19,7 @@
     align-self: center;
     max-width: 600px;
     max-height: 200px;
-    margin: 50px;
-    padding: 100px;
+    margin: 20px;
     background-color: rgba(35, 35, 35, 0.7);
     color: orange;
 }
@@ -28,9 +27,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
-    gap: 2vw;
+    gap: 1vw;
     margin-left: 30%;
-    padding: 2%;
+    padding: 1%;
 }
 #sweet-soup {
     width: 15rem;
@@ -49,8 +48,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
     margin-right: 30%;
-    padding: 2%;
-    gap: 2vw;
+    padding: 1%;
+    gap: 1vw;
 }
 #honey-cake {
     width: 15rem;
@@ -69,9 +68,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
-    gap: 2vw;
+    gap: 1vw;
     margin-left: 30%;
-    padding: 2%;
+    padding: 1%;
 }
 #pancake {
     width: 15rem;
@@ -92,8 +91,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
     margin-right: 30%;
-    padding: 2%;
-    gap: 2vw;
+    padding: 1%;
+    gap: 1vw;
 }
 #dessertFourTitle {
     font-size: 1rem;
@@ -112,9 +111,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
-    gap: 2vw;
+    gap: 1vw;
     margin-left: 30%;
-    padding: 2%;
+    padding: 1%;
 }
 #dessertFiveTitle {
     font-size: 1rem;
