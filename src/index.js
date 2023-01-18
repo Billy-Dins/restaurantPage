@@ -2,6 +2,7 @@ import './styles/home.css'
 import './styles/menu.css'
 import './styles/desserts.css'
 import './styles/pageNav.css'
+import './styles/reservations.css'
 
 import home from "./pages/home.js";
 import { createHeader, createFooter } from "./functions/pageAccents.js"

@@ -6,7 +6,8 @@ import phone from '../assets/icons/phone.png'
 import render from './render.js'
 import home from '../pages/home.js'
 import menu from '../pages/menu.js'
-import desserts from '../pages/desserts'
+import desserts from '../pages/desserts.js'
+import reservations from '../pages/reservations.js'
 
 const createHeader = function() {
     const header = document.createElement('header');
@@ -52,7 +53,7 @@ const createHeader = function() {
     bookHeader.textContent = 'rezervācija';
     bookHeader.addEventListener('click', function() {
         render();
-        console.log('book')
+        reservations();
         createHeader();
         createFooter();
     });

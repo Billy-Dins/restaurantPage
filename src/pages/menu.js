@@ -69,12 +69,12 @@ const main = function() {
 
     const mainTitleThree = document.createElement('div');
     mainTitleThree.id = 'main-title-three';
-    mainTitleThree.textContent = 'Aukstā zupa';
+    mainTitleThree.textContent = 'Liepājas menca';
     mainItemThree.appendChild(mainTitleThree);
 
     const mainTextThree = document.createElement('div');
     mainTextThree.id = 'main-text-three';
-    mainTextThree.textContent = 'Atsvaidzinoša zupa karstai vasaras dienai, bagāta ar uzturvielām un pārlieta ar cieti vārītu olu';
+    mainTextThree.textContent = 'Ēdiens ir kūpinātu mencu, kartupeļu, sīpolu un bieza krējuma sautējums, kas pasniegts īpašā keramikas katlā.';
     mainItemThree.appendChild(mainTextThree);
 
     mainContent.appendChild(mainItemThree);
@@ -99,6 +99,27 @@ const main = function() {
     mainItemFour.appendChild(grayPeaSoup);
 
     mainContent.appendChild(mainItemFour);
+
+    const mainItemFive = document.createElement('div');
+    mainItemFive.id = 'mainItemFive';
+    mainItemFive.classList.add('mainTab');
+
+    const meatBall = new Image();
+    meatBall.src = meatPatty;
+    meatBall.id = 'main-img-five';
+    mainItemFive.appendChild(meatBall);
+
+    const mainTitleFive = document.createElement('div');
+    mainTitleFive.id = 'main-title-five';
+    mainTitleFive.textContent = 'Kotletes';
+    mainItemFive.appendChild(mainTitleFive);
+
+    const mainTextFive = document.createElement('div');
+    mainTextFive.id = 'main-text-five';
+    mainTextFive.textContent = 'malta cūkgaļa un liellopa gaļas draugs līdz pilnībai. Pasniedz ar kartupeļiem, sīpoliem un bekonu.';
+    mainItemFive.appendChild(mainTextFive);
+
+    mainContent.appendChild(mainItemFive);
     content.appendChild(mainContent)
 };
 
