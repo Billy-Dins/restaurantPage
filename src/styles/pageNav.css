@@ -1,5 +1,4 @@
 header {
-    align-self: center;
     width: 100vw;
     background-color: rgb(50, 50, 50);
     position: fixed;
@@ -32,7 +31,6 @@ header {
     padding: 10px 0px 10px 0px;
     display: flex;
     justify-content: space-evenly;
-    align-self: center;
     max-width: 1600px;
 }
 .footerItem {
