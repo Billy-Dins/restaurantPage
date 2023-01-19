@@ -1,11 +1,11 @@
-#contact-background {
+#information-background {
     transform: scale(0.5);
     position: fixed;
     top: -1500px;
     left: -1000px;
     z-index: -1;
 }
-#contact-content {
+#information-content {
     width: 100vw;
     align-self: center;
     margin: 45px;
