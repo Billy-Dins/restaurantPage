@@ -34,7 +34,7 @@ const home = function() {
             resTitle.id = 'res-title'
             resTitle.textContent = 'Reservations'
             resForm.appendChild(resTitle);
-// -------------------------------------------------- //
+
             const resDate = document.createElement('div');
             resDate.id = 'res-date'
             const resDateIcon = new Image();
@@ -90,11 +90,66 @@ const home = function() {
         tabTwo.appendChild(resForm);
         mainContent.appendChild(tabTwo);
 // ---------------------------------------------------- //
-
         const tabThree = document.createElement('div');
         tabThree.id = 'gift-cards';
         tabThree.classList.add('homeTab');
-        tabThree.textContent = 'Nopelniet balvas!';
+
+        const giftForm = document.createElement('form');
+        giftForm.id = 'gift-card-form';
+
+        const giftTitle = document.createElement('div')
+        giftTitle.id = 'gift-card-title';
+        giftTitle.textContent = 'Gift cards'
+        giftForm.appendChild(giftTitle);
+
+        const giftDenom = document.createElement('select');
+        giftDenom.id = 'gift-denomination';
+
+        const denom1 = document.createElement('option');
+        denom1.classList.add('gift-card-denominations')
+        denom1.textContent = '$50';
+        giftDenom.appendChild(denom1);
+
+        const denom2 = document.createElement('option');
+        denom2.classList.add('gift-card-denominations')
+        denom2.textContent = '$75';
+        giftDenom.appendChild(denom2);
+
+        const denom3 = document.createElement('option');
+        denom3.classList.add('gift-card-denominations')
+        denom3.textContent = '$100';
+        giftDenom.appendChild(denom3);
+        giftForm.appendChild(giftDenom);
+
+        const giftQuant = document.createElement('select');
+        giftQuant.id = 'gift-card-quantity';
+        const quant1 = document.createElement('option');
+        quant1.classList.add('gift-card-quantities');
+        quant1.textContent = '1'
+        giftQuant.appendChild(quant1);
+
+        const quant2 = document.createElement('option');
+        quant2.classList.add('gift-card-quantities');
+        quant2.textContent = '2'
+        giftQuant.appendChild(quant2);
+
+        const quant3 = document.createElement('option');
+        quant3.classList.add('gift-card-quantities');
+        quant3.textContent = '3'
+        giftQuant.appendChild(quant3);
+
+        giftForm.appendChild(giftQuant);
+        const quantAdd = document.createElement('button');
+        quantAdd.id = 'gift-quantity-add';
+        quantAdd.textContent = '+';
+        giftForm.appendChild(quantAdd)
+
+        const giftCheckout = document.createElement('button');
+        giftCheckout.id = 'gift-checkout-btn';
+        giftCheckout.textContent = 'Checkout'
+        giftForm.appendChild(giftCheckout);
+
+        tabThree.appendChild(giftForm);
         mainContent.appendChild(tabThree);
     };
 
