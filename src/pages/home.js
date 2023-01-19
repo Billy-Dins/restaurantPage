@@ -20,7 +20,14 @@ const home = function() {
         const tabOne = document.createElement('div');
         tabOne.id = 'about-us';
         tabOne.classList.add('homeTab');
-        tabOne.textContent = 'Grupām no 10 līdz 250, lūdzu, aizpildiet mūsu anketu. Ir pieejama telpu īre, personlizēta ēdienkarte un dzērienu paketes.'
+        const aboutTitle = document.createElement('div')
+        aboutTitle.id = 'about-us-title'
+        aboutTitle.textContent = 'About us'
+        tabOne.appendChild(aboutTitle);
+        const aboutText = document.createElement('div')
+        aboutText.id = 'about-us-text'
+        aboutText.textContent = 'Mēs esam apceļojuši pasauli un baudījuši daudzas brīnišķīgas maltītes daudzās vietās. Mūsu secinājums: labākās maltītes tiek gatavotas no svaigākajiem, vietējiem produktiem. Mēs atbalstām savus vietējos lauksaimniekus un vēlamies saviem viesiem nodrošināt vislabāko ēdināšanas pieredzi. Mūsu ēdienkarte ir sagatavota no vietēji audzētiem, sezonas augļiem un dārzeņiem, kā arī uz vietas ražotas gaļas un amatnieku sieriem. Mūsu ēdienkarte ir apvienota ar vietējām garšām un receptēm. Mūsu unikālā, garšīgā virtuve, ko papildina rūpīgi atlasīti Latvijas un Baltijas vīni, atspoguļo mūsu mīlestību pret izcilu ēdienu, izcilu vīnu un mūsu sabiedrības atzinību.'
+        tabOne.appendChild(aboutText);
         mainContent.appendChild(tabOne);
 // --------------- reservations form -------------- //
         const tabTwo = document.createElement('div');
@@ -79,6 +86,18 @@ const home = function() {
             resSize.appendChild(resSizeTitle);
             const resSizeDrop = document.createElement('select')
             resSizeDrop.id = 'res-Size-drop'
+            const party1 = document.createElement('option')
+            party1.textContent = '1 - 2';
+            resSizeDrop.appendChild(party1);
+            const party2 = document.createElement('option')
+            party2.textContent = '3 - 4';
+            resSizeDrop.appendChild(party2);
+            const party3 = document.createElement('option')
+            party3.textContent = '5 - 8';
+            resSizeDrop.appendChild(party3);
+            const party4 = document.createElement('option')
+            party4.textContent = '9 +';
+            resSizeDrop.appendChild(party4);
             resSize.appendChild(resSizeDrop);
             resForm.appendChild(resSize)
 
