@@ -7,7 +7,7 @@ import render from './render.js'
 import home from '../pages/home.js'
 import menu from '../pages/menu.js'
 import desserts from '../pages/desserts.js'
-import reservations from '../pages/reservations.js'
+import contact from '../pages/contact.js'
 
 const createHeader = function() {
     const header = document.createElement('header');
@@ -53,7 +53,7 @@ const createHeader = function() {
     bookHeader.textContent = 'rezervācija';
     bookHeader.addEventListener('click', function() {
         render();
-        reservations();
+        contact();
         createHeader();
         createFooter();
     });

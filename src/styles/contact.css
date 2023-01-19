@@ -1,11 +1,11 @@
-#res-background {
+#contact-background {
     transform: scale(0.5);
     position: fixed;
     top: -1500px;
     left: -1000px;
     z-index: -1;
 }
-#res-content {
+#contact-content {
     width: 100vw;
     align-self: center;
     margin: 45px;
