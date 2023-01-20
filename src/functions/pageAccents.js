@@ -49,7 +49,7 @@ const createHeader = function() {
 
     const bookHeader = document.createElement('button');
     bookHeader.classList.add('headerItem');
-    bookHeader.textContent = 'rezervācija';
+    bookHeader.textContent = 'informāciju';
     bookHeader.addEventListener('click', function() {
         render();
         information();
