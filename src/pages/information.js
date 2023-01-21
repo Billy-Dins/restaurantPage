@@ -104,11 +104,50 @@ const information = function() {
     infoLocation.id = 'info-location';
     infoLocation.classList.add('info-tab');
     informationContent.appendChild(infoLocation);
-
+// --------------------------------------------------- //
     const infoHours = document.createElement('div');
     infoHours.id = 'info-hours';
     infoHours.classList.add('info-tab');
+
+    const infoHoursText = document.createElement('div');
+    infoHoursText.id = 'info-hours-text';
+    infoHoursText.textContent = 'Operating Hours: changes may occur, contact ElzasTastyYumYums@gmail.com with any questions.'
+    infoHours.appendChild(infoHoursText);
+
+    const infoHoursContent = document.createElement('div');
+    infoHoursContent.id = 'info-hours-content';
+
+    const locationContentOne = document.createElement('div');
+    locationContentOne.textContent = 'Monday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentOne);
+
+    const locationContentTwo = document.createElement('div');
+    locationContentTwo.textContent = 'Tuesday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentTwo);
+
+    const locationContentThree = document.createElement('div');
+    locationContentThree.textContent = 'Wednesday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentThree);
+
+    const locationContentFour = document.createElement('div');
+    locationContentFour.textContent = 'Thursday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentFour);
+
+    const locationContentFive = document.createElement('div');
+    locationContentFive.textContent = 'Friday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentFive);
+
+    const locationContentSix = document.createElement('div');
+    locationContentSix.textContent = 'Saturday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentSix);
+
+    const locationContentSeven = document.createElement('div');
+    locationContentSeven.textContent = 'Sunday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(locationContentSeven);
+
+    infoHours.appendChild(infoHoursContent);
     informationContent.appendChild(infoHours);
+// --------------------------------------------------- //
 }
 
 export default information

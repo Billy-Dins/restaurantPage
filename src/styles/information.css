@@ -19,6 +19,7 @@
     background-color: rgba(35, 35, 35, 0.7);
 }
 #info-contact {
+    color: aliceblue;
     margin-left: 30%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -68,6 +69,7 @@
     text-decoration: none;
 }
 .social-text {
+    color: aliceblue;
     font-size: 1rem;
     align-self: center;
 }
@@ -81,4 +83,15 @@
 }
 #info-hours {
     margin-left: 30%;
+}
+#info-hours-text {
+    font-size: 2vw;
+    color: orange;
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+#info-hours-content {
+    color: aliceblue;
+    font-size: 2vw;
+    padding: 2%;
 }

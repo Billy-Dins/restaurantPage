@@ -30,6 +30,7 @@ const desserts = function() {
         dessertItemOne.appendChild(dessertOneTitle);
 
         const dessertTextOne = document.createElement('div');
+        dessertTextOne.classList.add('dessert-text');
         dessertTextOne.textContent = 'Klasiskā maizes zupa, apvieno rupjmaizi ar garšvielām, cukuru un žāvētiem augļiem. Google saka, ka to vislabāk var pasniegt aukstā Elza...'
         dessertItemOne.appendChild(dessertTextOne);
 
@@ -54,6 +55,7 @@ const desserts = function() {
         dessertItemTwo.appendChild(honeyCake);
 
         const dessertTwoText = document.createElement('div');
+        dessertTwoText.classList.add('dessert-text')
         dessertTwoText.textContent = 'Šī medus kūka ir tik mīksta un fantastiska. Kūkas kārtās ceptais medus lieliski sader ar vienkāršu saldā krējuma glazūru.'
         dessertItemTwo.appendChild(dessertTwoText);
         dessertContent.appendChild(dessertItemTwo);
@@ -68,6 +70,7 @@ const desserts = function() {
         dessertItemThree.appendChild(dessertThreeTitle);
 
         const dessertThreeText = document.createElement('div');
+        dessertThreeText.classList.add('dessert-text')
         dessertThreeText.textContent = 'Katru rītu svaigas pankūkas pildītas ar biezpienu. Garšīgs un absolūts mīļākais'
         dessertItemThree.appendChild(dessertThreeText);
 
@@ -92,7 +95,7 @@ const desserts = function() {
         dessertItemFour.appendChild(dessertFourTitle);
 
         const dessertFourText = document.createElement('div')
-        dessertFourText.id = 'dessertFourText'
+        dessertFourText.classList.add('dessert-text')
         dessertFourText.textContent = 'upeņu un ābolu biezenis sajaukts ar saldo krējumu, lai tas paliktu maigs un krēmīgs. Bet uzmanies! Jums varētu sagribēties otro porciju.'
         dessertItemFour.appendChild(dessertFourText);
         dessertContent.appendChild(dessertItemFour);
@@ -107,7 +110,7 @@ const desserts = function() {
         dessertItemFive.appendChild(dessertFiveTitle);
 
         const dessertFiveText = document.createElement('div');
-        dessertFiveText.id = 'dessertFiveText'
+        dessertFiveText.classList.add('dessert-text')
         dessertFiveText.textContent = 'Smalki sarīvēts, pēc tam grauzdēts rupjmaizes pudiņš, kas aromatizēts ar kanēli un cukuru. Noteikti jāmirst';
         dessertItemFive.appendChild(dessertFiveText);
 
