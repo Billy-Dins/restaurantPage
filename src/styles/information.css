@@ -19,7 +19,7 @@
     background-color: rgba(35, 35, 35, 0.7);
 }
 #info-contact {
-    color: aliceblue;
+    color: (--secondary-color);
     margin-left: 30%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -27,7 +27,7 @@
 }
 #info-contact-title {
     text-align: center;
-    color: orange;
+    color: var(--main-color);
     padding: 2%;
     font-size: 2.5vw;
     border-bottom: 1px solid black;;
@@ -86,12 +86,12 @@
 }
 #info-hours-text {
     font-size: 2vw;
-    color: orange;
+    color: var(--main-color);
     padding: 2%;
     border-bottom: 1px solid black;
 }
 #info-hours-content {
-    color: aliceblue;
+    color: var(--secondary-color);
     font-size: 2vw;
     padding: 2%;
 }
