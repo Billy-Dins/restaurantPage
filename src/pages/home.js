@@ -1,4 +1,3 @@
-import mikelbaka from '../assets/imgs/Mikelbaka.jpg'
 import calendar from '../assets/icons/calendar.png'
 import clock from '../assets/icons/clock.png'
 import people from '../assets/icons/people.png'

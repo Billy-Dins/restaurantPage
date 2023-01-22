@@ -6,15 +6,9 @@
     --secondary-font: 'Damion', cursive;
     --accent-font: 'Unbounded', cursive; 
 }
-body, html, #content {
-    height: 100vh;
-}
 body {
     background-color: rgb(50, 50, 50);
     margin: 0px;
-}
-#content {
-    max-width: 1500px;
 }
 .homeContent {
     background: url(../assets/imgs/Mikelbaka.jpg);
@@ -26,7 +20,6 @@ body {
     justify-content: center;
     grid-template-rows: 1fr 1fr 1fr;
     gap: .1vh;
-    padding: 30px 0px 30px 0px;
 }
 .homeTab {
     display: flex;
@@ -39,9 +32,7 @@ body {
 }
 #about-us {
     padding: 2%;
-    display: grid;
-    grid-template-areas: .1fr 1fr;
-    margin-left: 30%;
+    margin: 15% 4% 0 30%;
 }
 #about-us-title {
     font-family: var(--main-font);

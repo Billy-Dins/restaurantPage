@@ -1,4 +1,3 @@
-import ventspilsPic from '../assets/imgs/ventspils.jpg'
 import cabotTrail from '../assets/imgs/cabotTrail.jpg'
 
 import facebook from '../assets/icons/facebook.png'

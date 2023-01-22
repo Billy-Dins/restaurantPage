@@ -2,12 +2,10 @@
 #information-content {
     background: url(../assets/imgs/ventspils.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1200px;
     background-attachment: fixed;
-    background-position: -100px -300px;
-    width: 100vw;
+    background-position: -100px -200px;
     align-self: center;
-    margin: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +18,7 @@
 }
 #info-contact {
     color: var(--secondary-color);
-    margin-left: 30%;
+    margin: 15% 4% 0 30%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -91,6 +89,7 @@
 }
 #info-hours {
     margin-left: 30%;
+    margin-bottom: 15%;
 }
 #info-hours-text {
     font-family: var(--main-font);

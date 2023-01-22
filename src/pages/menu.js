@@ -1,4 +1,3 @@
-import skyline from '../assets/imgs/RigaSkyline.jpg'
 import beatSoup from '../assets/imgs/cold-beat-soup.jpg'
 import potatoPancakes from '../assets/imgs/potato-pancakes.jpg'
 import peaSoup from '../assets/imgs/gray-pea-soup.jpg'

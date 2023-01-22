@@ -15,7 +15,7 @@
     align-self: center;
     max-width: 600px;
     max-height: 200px;
-    margin: 50px;
+    margin: 25px;
     background-color: var(--module-background);
 }
 #dessertItemOne {
@@ -98,6 +98,7 @@
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
     margin-left: 30%;
+    margin-bottom: 0;
     padding: 1%;
 }
 #dessertFiveTitle {

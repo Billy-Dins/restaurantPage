@@ -1,5 +1,3 @@
-import bridge from '../assets/imgs/bridge.jpg'
-
 import sweetSoups from '../assets/imgs/sweetSoup.jpg'
 import honeyCakes from '../assets/imgs/honeyCake.jpg'
 import pancakes from '../assets/imgs/pancakes.jpg'
