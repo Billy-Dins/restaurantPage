@@ -1,4 +1,5 @@
 import ventspilsPic from '../assets/imgs/ventspils.jpg'
+import cabotTrail from '../assets/imgs/cabotTrail.jpg'
 
 import facebook from '../assets/icons/facebook.png'
 import twitter from '../assets/icons/twitter.png'
@@ -7,11 +8,6 @@ import tripadvisor from '../assets/icons/tripadvisor.png'
 const content = document.querySelector('#content')
 
 const information = function() {
-    const informationBackground = new Image();
-    informationBackground.src = ventspilsPic;
-    informationBackground.id = 'information-background';
-    content.appendChild(informationBackground);
-
     const informationContent = document.createElement('div');
     informationContent.id = 'information-content';
     content.appendChild(informationContent);
@@ -99,11 +95,18 @@ const information = function() {
         infoContactSocial.appendChild(contactSocialTwitter);
         infoContactSocial.appendChild(contactSocialTA)
     infoContact.appendChild(infoContactSocial);
+// --------------------------------------------------- //
+    const infoHighlightImg = document.createElement('div');
+    infoHighlightImg.id = 'info-highlight-img';
+    infoHighlightImg.classList.add('info-tab');
 
-    const infoLocation = document.createElement('div');
-    infoLocation.id = 'info-location';
-    infoLocation.classList.add('info-tab');
-    informationContent.appendChild(infoLocation);
+
+    const highlightImg = new Image();
+    highlightImg.src = cabotTrail;
+    highlightImg.id = 'highlight-img';
+    infoHighlightImg.appendChild(highlightImg);
+
+    informationContent.appendChild(infoHighlightImg);
 // --------------------------------------------------- //
     const infoHours = document.createElement('div');
     infoHours.id = 'info-hours';
@@ -117,33 +120,33 @@ const information = function() {
     const infoHoursContent = document.createElement('div');
     infoHoursContent.id = 'info-hours-content';
 
-    const locationContentOne = document.createElement('div');
-    locationContentOne.textContent = 'Monday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentOne);
+    const hoursContentOne = document.createElement('div');
+    hoursContentOne.textContent = 'Monday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentOne);
 
-    const locationContentTwo = document.createElement('div');
-    locationContentTwo.textContent = 'Tuesday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentTwo);
+    const hoursContentTwo = document.createElement('div');
+    hoursContentTwo.textContent = 'Tuesday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentTwo);
 
-    const locationContentThree = document.createElement('div');
-    locationContentThree.textContent = 'Wednesday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentThree);
+    const hoursContentThree = document.createElement('div');
+    hoursContentThree.textContent = 'Wednesday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentThree);
 
-    const locationContentFour = document.createElement('div');
-    locationContentFour.textContent = 'Thursday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentFour);
+    const hoursContentFour = document.createElement('div');
+    hoursContentFour.textContent = 'Thursday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentFour);
 
-    const locationContentFive = document.createElement('div');
-    locationContentFive.textContent = 'Friday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentFive);
+    const hoursContentFive = document.createElement('div');
+    hoursContentFive.textContent = 'Friday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentFive);
 
-    const locationContentSix = document.createElement('div');
-    locationContentSix.textContent = 'Saturday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentSix);
+    const hoursContentSix = document.createElement('div');
+    hoursContentSix.textContent = 'Saturday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentSix);
 
-    const locationContentSeven = document.createElement('div');
-    locationContentSeven.textContent = 'Sunday:	3:00pm - 11:00pm'
-    infoHoursContent.appendChild(locationContentSeven);
+    const hoursContentSeven = document.createElement('div');
+    hoursContentSeven.textContent = 'Sunday:	3:00pm - 11:00pm'
+    infoHoursContent.appendChild(hoursContentSeven);
 
     infoHours.appendChild(infoHoursContent);
     informationContent.appendChild(infoHours);

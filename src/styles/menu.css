@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: column;
 }
-.Riga {
-    position: fixed;
-    right: -500px;
-    top: -50px;
-    z-index: -1;
-    color: rgb(54, 54, 54);
-}
 .mainContent {
+    background: url(../assets/imgs/RigaSkyline.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -400px;
     display: flex;
     flex-direction: column;
     align-items: center;

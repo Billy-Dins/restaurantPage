@@ -1,15 +1,11 @@
 .dessertContent {
+    background: url(../assets/imgs/bridge.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1500px;
     display: flex;
     flex-direction: column;
     padding: 50px 0px 50px 0px;
-}
-#dessert-background {
-    align-self: center;
-    transform: scale(1.6);
-    color: rgb(54, 54, 54);
-    position: fixed;
-    z-index: -1;
-    width: 1200px;
 }
 .dessertTab {
     display: flex;

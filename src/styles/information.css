@@ -1,11 +1,10 @@
-#information-background {
-    transform: scale(0.5);
-    position: fixed;
-    top: -1500px;
-    left: -1000px;
-    z-index: -1;
-}
+
 #information-content {
+    background: url(../assets/imgs/ventspils.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-attachment: fixed;
+    background-position: -100px -300px;
     width: 100vw;
     align-self: center;
     margin: 45px;
@@ -84,8 +83,11 @@
     margin-right: 2%;
     width: 1.1rem;
 }
-#info-location {
+#info-highlight-img {
     margin-right: 30%;
+}
+#highlight-img {
+    width: 15rem;
 }
 #info-hours {
     margin-left: 30%;

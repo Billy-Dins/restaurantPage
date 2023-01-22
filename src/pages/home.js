@@ -7,11 +7,6 @@ const home = function() {
     const content = document.querySelector('#content');
     content.id = 'content';
 
-    const background = document.createElement('img');
-    background.src = mikelbaka;
-    background.classList.add('background');
-    content.appendChild(background);
-
     const homeContent = function () {
         const mainContent = document.createElement('main');
         mainContent.classList.add('homeContent');

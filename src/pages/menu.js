@@ -8,11 +8,6 @@ import smokedCod from '../assets/imgs/smoked-cod.jpg'
 const content = document.querySelector('#content')
 
 const main = function() {
-    const RigaSkyline = new Image();
-    RigaSkyline.src = skyline;
-    RigaSkyline.classList.add('Riga')
-    content.appendChild(RigaSkyline);
-
     const mainContent = document.createElement('main');
     mainContent.classList.add('mainContent');
 // -------------------------------------------------- //
