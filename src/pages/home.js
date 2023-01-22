@@ -98,6 +98,9 @@ const home = function() {
             const resBtn = document.createElement('button')
             resBtn.id = 'res-submit-btn';
             resBtn.textContent = 'Find a table'
+            resBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+            })
             resForm.appendChild(resBtn);
 
         tabTwo.appendChild(resForm);
@@ -155,11 +158,17 @@ const home = function() {
         const quantAdd = document.createElement('button');
         quantAdd.id = 'gift-quantity-add';
         quantAdd.textContent = '+';
+        quantAdd.addEventListener('click', (e) => {
+            e.preventDefault();
+        })
         giftForm.appendChild(quantAdd)
 
         const giftCheckout = document.createElement('button');
         giftCheckout.id = 'gift-checkout-btn';
         giftCheckout.textContent = 'Checkout'
+        giftCheckout.addEventListener('click', (e) => {
+            e.preventDefault();
+        })
         giftForm.appendChild(giftCheckout);
 
         tabThree.appendChild(giftForm);

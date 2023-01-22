@@ -5,7 +5,6 @@
     background-size: 1500px;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 50px 0px;
 }
 .dessertTab {
     display: flex;
@@ -15,7 +14,7 @@
     align-self: center;
     max-width: 600px;
     max-height: 200px;
-    margin: 25px;
+    margin: 4.5%;
     background-color: var(--module-background);
 }
 #dessertItemOne {
@@ -23,6 +22,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
+    margin-top: 55px;
     margin-left: 30%;
     padding: 1%;
 }
@@ -98,7 +98,7 @@
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
     margin-left: 30%;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding: 1%;
 }
 #dessertFiveTitle {
