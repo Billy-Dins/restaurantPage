@@ -118,6 +118,9 @@ const home = function() {
         giftTitle.textContent = 'Dāvanu karte'
         giftForm.appendChild(giftTitle);
 
+        const giftCardSelections = document.createElement('div');
+        giftCardSelections.id = 'gift-card-selections';
+        
         const giftDenom = document.createElement('select');
         giftDenom.id = 'gift-denomination';
 
@@ -135,7 +138,7 @@ const home = function() {
         denom3.classList.add('gift-card-denominations')
         denom3.textContent = '$100';
         giftDenom.appendChild(denom3);
-        giftForm.appendChild(giftDenom);
+        giftCardSelections.appendChild(giftDenom);
 
         const giftQuant = document.createElement('select');
         giftQuant.id = 'gift-card-quantity';
@@ -154,14 +157,19 @@ const home = function() {
         quant3.textContent = '3'
         giftQuant.appendChild(quant3);
 
-        giftForm.appendChild(giftQuant);
+        giftCardSelections.appendChild(giftQuant);
         const quantAdd = document.createElement('button');
         quantAdd.id = 'gift-quantity-add';
         quantAdd.textContent = '+';
         quantAdd.addEventListener('click', (e) => {
             e.preventDefault();
         })
-        giftForm.appendChild(quantAdd)
+        giftCardSelections.appendChild(quantAdd)
+        giftForm.appendChild(giftCardSelections);
+
+        const addedCardsParent = document.createElement('div');
+        addedCardsParent.id = 'gift-card-parent'
+        giftForm.appendChild(addedCardsParent);
 
         const giftCheckout = document.createElement('button');
         giftCheckout.id = 'gift-checkout-btn';
