@@ -192,6 +192,7 @@ const home = function() {
         giftCardSelections.appendChild(quantAdd)
         // ------------------------------------------- //
         giftForm.appendChild(giftCardSelections);
+        
         const cardContainerTitle = document.createElement('div')
         cardContainerTitle.id = 'card-container-title'
         const containerTitleValue = document.createElement('div');
