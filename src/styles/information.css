@@ -17,7 +17,7 @@
 #info-contact {
     color: var(--secondary-color);
     margin-top: 55px;
-    margin-left: 30%;
+    margin-right: 30%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -81,13 +81,13 @@
     width: 1.1rem;
 }
 #info-highlight-img {
-    margin-right: 30%;
+    margin-left: 30%;
 }
 #highlight-img {
     width: 15rem;
 }
 #info-hours {
-    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 18%;
 }
 #info-hours-text {

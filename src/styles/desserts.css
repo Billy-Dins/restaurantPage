@@ -9,7 +9,7 @@
 .dessertTab {
     text-align: center;
     max-width: 600px;
-    max-height: 200px;
+    margin: 50px;
     margin: 4.5%;
     background-color: var(--module-background);
 }
@@ -19,28 +19,28 @@
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
     margin-top: 55px;
-    margin-left: 30%;
+    margin-left: 20%;
     padding: 1%;
 }
 #sweet-soup {
-    width: 15rem;
+    width: 10rem;
 }
 #dessertOneTitle{
     font-family: var(--main-font);
     color: var(--main-color);
     grid-column: 2/3;
-    grid-row: 2/2;
+    grid-row: 2/3;
 }
 #dessertItemTwo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
-    margin-right: 30%;
+    margin-right: 20%;
     padding: 1%;
     gap: 1vw;
 }
 #honey-cake {
-    width: 15rem;
+    width: 10rem;
 }
 #dessertTwoTitle{
     font-family: var(--main-font);
@@ -53,11 +53,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
-    margin-left: 30%;
+    margin-left: 20%;
     padding: 1%;
 }
 #pancake {
-    width: 15rem;
+    width: 10rem;
 }
 
 #dessertThreeTitle{
@@ -70,7 +70,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
-    margin-right: 30%;
+    margin-right: 20%;
     padding: 1%;
     gap: 1vw;
 }
@@ -82,14 +82,14 @@
 }
 #mousse {
     grid-column: 1/2;
-    width: 15rem;
+    width: 10rem;
 }
 #dessertItemFive {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
     gap: 1vw;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-bottom: 50px;
     padding: 1%;
 }
@@ -105,5 +105,5 @@
     font-family: var(--secondary-font);
 }
 #pudding {
-    width: 15rem;
+    width: 10rem;
 }

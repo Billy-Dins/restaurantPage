@@ -12,11 +12,9 @@ body {
 }
 .homeContent {
     background: url(../assets/imgs/Mikelbaka.jpg);
-    background-size: 1700px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: -100px;
     display: flex;
     flex-direction: column;
     gap: .1vh;
@@ -31,7 +29,7 @@ body {
 #about-us {
     padding: 2%;
     margin-top: 55px;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 #about-us-title {
     font-family: var(--main-font);
@@ -47,7 +45,7 @@ body {
 }
 #reservations {
     padding: 2%;
-    margin-right: 30%;
+    margin-right: 20%;
 }
 #res-form {
     display: grid;
@@ -146,7 +144,7 @@ body {
 }
 #gift-cards {
     padding: 2%;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-bottom: 17%;
 }
 #gift-card-form {
