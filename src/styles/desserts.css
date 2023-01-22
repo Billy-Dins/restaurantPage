@@ -2,16 +2,12 @@
     background: url(../assets/imgs/bridge.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1700px;
     display: flex;
     flex-direction: column;
 }
 .dessertTab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    align-self: center;
     max-width: 600px;
     max-height: 200px;
     margin: 4.5%;
@@ -104,6 +100,7 @@
     grid-row: 2/2;
 }
 .dessert-text {
+    align-self: center;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
 }

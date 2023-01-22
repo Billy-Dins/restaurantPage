@@ -100,7 +100,7 @@ const createFooter = function() {
     footerItemFour.appendChild(telephone);
 
     const footerPhone = document.createElement('div');
-    footerPhone.textContent = '371 27 841 572'
+    footerPhone.textContent = '371 27 841 569'
     footerItemFour.appendChild(footerPhone);
     footer.appendChild(footerItemFour);
 };

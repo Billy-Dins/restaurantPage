@@ -28,7 +28,7 @@ const information = function() {
 
     const infoContactPhone = document.createElement('div');
     infoContactPhone.id = 'info-contact-phone';
-    infoContactPhone.textContent = 'tālrunis: 371 27 841 572';
+    infoContactPhone.textContent = 'tālrunis: 371 27 841 569';
     infoContact.appendChild(infoContactPhone);
 
     const infoContactAddress = document.createElement('div');

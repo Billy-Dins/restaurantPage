@@ -1,14 +1,15 @@
 .mainContent {
     background: url(../assets/imgs/RigaSkyline.jpg);
-    background-size: 1500px;
+    background-size: 1700px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: -400px;
+    background-position: -300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .mainTab {
+    text-align: center;
     max-width: 600px;
     margin: 50px;
     padding: 50px;
@@ -17,7 +18,6 @@
     color: var(--main-color)
 }
 #mainItemOne {
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
@@ -41,7 +41,6 @@
     grid-row: 1/3;
 }
 #mainItemTwo {
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
@@ -64,7 +63,6 @@
     grid-row: 1/3;
 }
 #mainItemThree {
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
@@ -87,7 +85,6 @@
     grid-row: 1/3;
 }
 #mainItemFour {
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
@@ -110,8 +107,6 @@
     grid-row: 1/3;
 }
 #mainItemFive {
-    font-family: var(--main-font);
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .1fr;
