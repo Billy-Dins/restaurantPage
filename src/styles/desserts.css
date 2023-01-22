@@ -2,7 +2,7 @@
     background: url(../assets/imgs/bridge.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1700px;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
