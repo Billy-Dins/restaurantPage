@@ -19,7 +19,8 @@
 .mainTab {
     margin: 50px;
     padding: 50px;
-    background-color: rgba(35, 35, 35, 0.7);
+    font-family: var(--main-font);
+    background-color: var(--module-background);
     color: var(--main-color)
 }
 #mainItemOne {
@@ -38,7 +39,8 @@
     grid-column: 1/2;
     grid-row: 2/3;
 }
-#main-text-one{
+#main-text-one {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
     align-self: center;
     grid-column: 2/3;
@@ -61,6 +63,7 @@
     grid-row: 2/3;
 }
 #main-text-two {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
     align-self: center;
     grid-column: 1/2;
@@ -83,6 +86,7 @@
     grid-row: 2/3;
 }
 #main-text-three {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
     align-self: center;
     grid-column: 2/3;
@@ -105,12 +109,14 @@
     grid-row: 2/3;
 }
 #main-text-four {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
     align-self: center;
     grid-column: 1/2;
     grid-row: 1/3;
 }
 #mainItemFive {
+    font-family: var(--main-font);
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -127,6 +133,7 @@
     grid-row: 2/3;
 }
 #main-text-five {
+    font-family: var(--secondary-font);
     color: var(--secondary-color);
     align-self: center;
     grid-column: 1/2;

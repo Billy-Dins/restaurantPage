@@ -20,7 +20,7 @@
     max-width: 600px;
     max-height: 200px;
     margin: 50px;
-    background-color: rgba(35, 35, 35, 0.7);
+    background-color: var(--module-background);
 }
 #dessertItemOne {
     display: grid;
@@ -34,6 +34,7 @@
     width: 15rem;
 }
 #dessertOneTitle{
+    font-family: var(--main-font);
     color: var(--main-color);
     font-size: 1rem;
     grid-column: 2/3;
@@ -51,6 +52,7 @@
     width: 15rem;
 }
 #dessertTwoTitle{
+    font-family: var(--main-font);
     color: var(--main-color);
     font-size: 1rem;
     grid-column: 1/2;
@@ -69,6 +71,7 @@
 }
 
 #dessertThreeTitle{
+    font-family: var(--main-font);
     color: var(--main-color);
     font-size: 1rem;
     grid-column: 2/3;
@@ -83,6 +86,7 @@
     gap: 1vw;
 }
 #dessertFourTitle {
+    font-family: var(--main-font);
     color: var(--main-color);
     font-size: 1rem;
     grid-column: 1/2;
@@ -101,15 +105,16 @@
     padding: 1%;
 }
 #dessertFiveTitle {
+    font-family: var(--main-font);
     color: var(--main-color);
     font-size: 1rem;
     grid-column: 2/3;
     grid-row: 2/2;
 }
 .dessert-text {
-    font-size: 1rem;
     font-size: 2vw;
     color: var(--secondary-color);
+    font-family: var(--secondary-font);
 }
 #pudding {
     width: 15rem;

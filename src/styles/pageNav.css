@@ -1,6 +1,6 @@
 header {
     width: 100vw;
-    background-color: rgb(50, 50, 50);
+    background-color: var(--module-background);
     position: fixed;
     top: 0px;
     padding: 10px 0px 10px 0px;
@@ -10,11 +10,12 @@ header {
 }
 
 .headerItem {
-    background-color: rgb(50, 50, 50);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: orange;
+    background: none;
+    font-family: var(--main-font);
+    color: var(--main-color);
     border: none;
     margin: 0px 25px 0px 25px;
     height: 25px;
@@ -25,7 +26,9 @@ header {
 }
 .footer {
     width: 100vw;
-    background-color: rgb(50, 50, 50);
+    font-family: var(--main-font);
+    color: var(--main-color);
+    background-color: var(--module-background);
     position: fixed;
     bottom: 0px;
     padding: 10px 0px 10px 0px;
@@ -34,7 +37,6 @@ header {
     max-width: 1600px;
 }
 .footerItem {
-    color: orange;
     font-size: 1.5vw;
     display: flex;
     align-items: center;
