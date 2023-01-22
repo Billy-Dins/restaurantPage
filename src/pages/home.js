@@ -16,7 +16,7 @@ const home = function() {
         tabOne.classList.add('homeTab');
         const aboutTitle = document.createElement('div')
         aboutTitle.id = 'about-us-title'
-        aboutTitle.textContent = 'About us'
+        aboutTitle.textContent = 'Par mums'
         tabOne.appendChild(aboutTitle);
         const aboutText = document.createElement('div')
         aboutText.id = 'about-us-text'
@@ -33,7 +33,7 @@ const home = function() {
 
             const resTitle = document.createElement('div');
             resTitle.id = 'res-title'
-            resTitle.textContent = 'Reservations'
+            resTitle.textContent = 'Rezervācija'
             resForm.appendChild(resTitle);
 
             const resDate = document.createElement('div');
@@ -44,7 +44,7 @@ const home = function() {
             resDate.appendChild(resDateIcon)
             const resDateTitle = document.createElement('div');
             resDateTitle.id = 'res-date-title'
-            resDateTitle.textContent = 'Date'
+            resDateTitle.textContent = 'Datums'
             resDate.appendChild(resDateTitle);
             const resDateDrop = document.createElement('input');
             resDateDrop.setAttribute('type', 'date')
@@ -60,7 +60,7 @@ const home = function() {
             resTime.appendChild(resTimeIcon)
             const resTimeTitle = document.createElement('div');
             resTimeTitle.id = 'res-time-title'
-            resTimeTitle.textContent = 'Time'
+            resTimeTitle.textContent = 'Laiks'
             resTime.appendChild(resTimeTitle);
             const resTimeDrop = document.createElement('input');
             resTimeDrop.setAttribute('type', 'time')
@@ -76,7 +76,7 @@ const home = function() {
             resSize.appendChild(resSizeIcon)
             const resSizeTitle = document.createElement('div');
             resSizeTitle.id = 'res-size-title'
-            resSizeTitle.textContent = 'Party Size'
+            resSizeTitle.textContent = 'Partijas lielums'
             resSize.appendChild(resSizeTitle);
             const resSizeDrop = document.createElement('select')
             resSizeDrop.id = 'res-Size-drop'
@@ -97,7 +97,7 @@ const home = function() {
 
             const resBtn = document.createElement('button')
             resBtn.id = 'res-submit-btn';
-            resBtn.textContent = 'Find a table'
+            resBtn.textContent = 'Atrast galdu'
             resBtn.addEventListener('click', (e) => {
                 e.preventDefault();
             })
@@ -115,7 +115,7 @@ const home = function() {
 
         const giftTitle = document.createElement('div')
         giftTitle.id = 'gift-card-title';
-        giftTitle.textContent = 'Gift cards'
+        giftTitle.textContent = 'Dāvanu karte'
         giftForm.appendChild(giftTitle);
 
         const giftDenom = document.createElement('select');
@@ -165,7 +165,7 @@ const home = function() {
 
         const giftCheckout = document.createElement('button');
         giftCheckout.id = 'gift-checkout-btn';
-        giftCheckout.textContent = 'Checkout'
+        giftCheckout.textContent = 'izrakstīšanās'
         giftCheckout.addEventListener('click', (e) => {
             e.preventDefault();
         })

@@ -32,7 +32,6 @@
 #dessertOneTitle{
     font-family: var(--main-font);
     color: var(--main-color);
-    font-size: 1rem;
     grid-column: 2/3;
     grid-row: 2/2;
 }
@@ -50,7 +49,6 @@
 #dessertTwoTitle{
     font-family: var(--main-font);
     color: var(--main-color);
-    font-size: 1rem;
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -69,7 +67,6 @@
 #dessertThreeTitle{
     font-family: var(--main-font);
     color: var(--main-color);
-    font-size: 1rem;
     grid-column: 2/3;
     grid-row: 2/2;
 }
@@ -84,7 +81,6 @@
 #dessertFourTitle {
     font-family: var(--main-font);
     color: var(--main-color);
-    font-size: 1rem;
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -104,12 +100,10 @@
 #dessertFiveTitle {
     font-family: var(--main-font);
     color: var(--main-color);
-    font-size: 1rem;
     grid-column: 2/3;
     grid-row: 2/2;
 }
 .dessert-text {
-    font-size: 2vw;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
 }

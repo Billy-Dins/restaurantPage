@@ -18,17 +18,17 @@ const information = function() {
 
     const infoContactTitle = document.createElement('div');
     infoContactTitle.id = 'info-contact-title';
-    infoContactTitle.textContent = 'Contact'
+    infoContactTitle.textContent = 'Sazinies ar mums'
     infoContact.appendChild(infoContactTitle);
 
     const infoContactEmail = document.createElement('div');
     infoContactEmail.id = 'info-contact-email';
-    infoContactEmail.textContent = 'Email: ElzasTastyYumYums@gmail.com';
+    infoContactEmail.textContent = 'E-pasts: ElzasTastyYumYums@gmail.com';
     infoContact.appendChild(infoContactEmail);
 
     const infoContactPhone = document.createElement('div');
     infoContactPhone.id = 'info-contact-phone';
-    infoContactPhone.textContent = 'Phone: 371 27 841 572';
+    infoContactPhone.textContent = 'tālrunis: 371 27 841 572';
     infoContact.appendChild(infoContactPhone);
 
     const infoContactAddress = document.createElement('div');
@@ -113,38 +113,38 @@ const information = function() {
 
     const infoHoursText = document.createElement('div');
     infoHoursText.id = 'info-hours-text';
-    infoHoursText.textContent = 'Operating Hours: changes may occur, contact ElzasTastyYumYums@gmail.com with any questions.'
+    infoHoursText.textContent = 'Darba laiks: iespējamas izmaiņas, ar jebkādiem jautājumiem sazinieties ar ElzasTastyYumYums@gmail.com.'
     infoHours.appendChild(infoHoursText);
 
     const infoHoursContent = document.createElement('div');
     infoHoursContent.id = 'info-hours-content';
 
     const hoursContentOne = document.createElement('div');
-    hoursContentOne.textContent = 'Monday:	3:00pm - 11:00pm'
+    hoursContentOne.textContent = 'pirmdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentOne);
 
     const hoursContentTwo = document.createElement('div');
-    hoursContentTwo.textContent = 'Tuesday:	3:00pm - 11:00pm'
+    hoursContentTwo.textContent = 'otrdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentTwo);
 
     const hoursContentThree = document.createElement('div');
-    hoursContentThree.textContent = 'Wednesday:	3:00pm - 11:00pm'
+    hoursContentThree.textContent = 'trešdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentThree);
 
     const hoursContentFour = document.createElement('div');
-    hoursContentFour.textContent = 'Thursday:	3:00pm - 11:00pm'
+    hoursContentFour.textContent = 'ceturtdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentFour);
 
     const hoursContentFive = document.createElement('div');
-    hoursContentFive.textContent = 'Friday:	3:00pm - 11:00pm'
+    hoursContentFive.textContent = 'piektdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentFive);
 
     const hoursContentSix = document.createElement('div');
-    hoursContentSix.textContent = 'Saturday:	3:00pm - 11:00pm'
+    hoursContentSix.textContent = 'sestdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentSix);
 
     const hoursContentSeven = document.createElement('div');
-    hoursContentSeven.textContent = 'Sunday:	3:00pm - 11:00pm'
+    hoursContentSeven.textContent = 'svētdiena:	3:00pm - 11:00pm'
     infoHoursContent.appendChild(hoursContentSeven);
 
     infoHours.appendChild(infoHoursContent);
