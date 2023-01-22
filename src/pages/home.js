@@ -161,22 +161,55 @@ const home = function() {
         const quantAdd = document.createElement('button');
         quantAdd.id = 'gift-quantity-add';
         quantAdd.textContent = '+';
+        // ------------------------------------------- //
+
+        const giftCardArray = [];
+        const createNewCard = function(price, quantity) {
+            return { price, quantity }
+        }
+        const renderCards = function() {
+            document.querySelector('#gift-card-container').textContent = ''
+            for (let i = 0; i < giftCardArray.length; i++) {
+                const cardChild = document.createElement('div');
+                cardChild.id = 'gift-card-parent'
+                const cardChildValue = document.createElement('div');
+                cardChildValue.textContent = giftCardArray[i].price
+                cardChild.appendChild(cardChildValue);
+                const cardChildQuantity = document.createElement('div');
+                cardChildQuantity.textContent = giftCardArray[i].quantity
+                cardChild.appendChild(cardChildQuantity);
+                addedCardsParent.appendChild(cardChild);
+            }
+        }
         quantAdd.addEventListener('click', (e) => {
             e.preventDefault();
+            const cardValue = document.querySelector('#gift-denomination').value;
+            const cardQuanity = document.querySelector('#gift-card-quantity').value;
+            giftCardArray.push(createNewCard(cardValue, cardQuanity))
+            console.log(giftCardArray)
+            renderCards();
         })
         giftCardSelections.appendChild(quantAdd)
+        // ------------------------------------------- //
         giftForm.appendChild(giftCardSelections);
+        const cardContainerTitle = document.createElement('div')
+        cardContainerTitle.id = 'card-container-title'
+        const containerTitleValue = document.createElement('div');
+        containerTitleValue.textContent = 'Value';
+        cardContainerTitle.appendChild(containerTitleValue);
+        
+        const containerTitleQuantity = document.createElement('div');
+        containerTitleQuantity.textContent = 'Quantity';
+        cardContainerTitle.appendChild(containerTitleQuantity);
 
+        giftForm.appendChild(cardContainerTitle);
         const addedCardsParent = document.createElement('div');
-        addedCardsParent.id = 'gift-card-parent'
+        addedCardsParent.id = 'gift-card-container'
         giftForm.appendChild(addedCardsParent);
 
         const giftCheckout = document.createElement('button');
         giftCheckout.id = 'gift-checkout-btn';
         giftCheckout.textContent = 'izrakstīšanās'
-        giftCheckout.addEventListener('click', (e) => {
-            e.preventDefault();
-        })
         giftForm.appendChild(giftCheckout);
 
         tabThree.appendChild(giftForm);

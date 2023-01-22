@@ -184,8 +184,18 @@ body {
     font-size: 2rem;
     margin: 2%;
 }
-#gift-card-parent {
+#gift-card-container {
     padding: 1%;
+}
+#card-container-title {
+    display: flex;
+    justify-content: space-around;
+}
+#gift-card-parent {
+    margin: 1px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
 }
 #gift-checkout-btn {
     padding: 1%;
